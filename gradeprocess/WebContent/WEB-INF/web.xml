@@ -1,0 +1,30 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<web-app xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xmlns="http://xmlns.jcp.org/xml/ns/javaee"
+	xsi:schemaLocation="http://xmlns.jcp.org/xml/ns/javaee http://xmlns.jcp.org/xml/ns/javaee/web-app_3_1.xsd"
+	id="WebApp_ID" version="3.1">
+	<display-name>ServletSample</display-name>
+	<welcome-file-list>
+		<welcome-file>index.html</welcome-file>
+		<welcome-file>index.htm</welcome-file>
+		<welcome-file>index.jsp</welcome-file>
+		<welcome-file>default.html</welcome-file>
+		<welcome-file>default.htm</welcome-file>
+		<welcome-file>default.jsp</welcome-file>
+	</welcome-file-list>
+
+	<!-- web.xml은 톰캣 서버에게 서블릿 정보를 알려주기 위한 환경 설정 파일이다. -->
+	<!-- 톰캣서버에 서블릿 주소와 클라이언트 요청 주소를 매핑하는 과정 필요 -->
+	<!-- 클라이언트의 요청 주소를 분석해서 매핑된 서블릿을 호출하게 된다. -->
+	<servlet>
+		<servlet-name>Controller</servlet-name>
+		<servlet-class>com.test.ControllerServlet</servlet-class>
+	</servlet>
+
+	<servlet-mapping>
+		<servlet-name>Controller</servlet-name>
+		<!-- 다양한 서블릿 요청 주소(예를 들어 gradelist.it, studentlist.it, ...)를 모두 묶어서 하나로 표현하기 위해서 확장자 방식 사용 -->
+		<!-- 확장자는 정해진 것은 없지만 관습적으로 .do 사용 -->
+		<url-pattern>*.do</url-pattern>
+	</servlet-mapping>
+</web-app>
