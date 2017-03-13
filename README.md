@@ -7,5 +7,6 @@
 * 개발 Tool : Eclipse, SVN, Apache Tomcat v8.0, VisualSVN Server Manager
 
 ### Ajax, JSON 코드분석 영역 데모 시연 영상
+* [YouTube 보기](https://youtu.be/2gtT-Kq7P9g)
 ![gradeprocess demo gif](https://cloud.githubusercontent.com/assets/25098075/23864998/8f3e5dd2-0857-11e7-8daa-abb78a105a2d.gif)
  
