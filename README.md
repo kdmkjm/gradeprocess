@@ -5,3 +5,6 @@
 * 결과를 얻어오기 위한 서버 액션: JAVA, Servlet, JSP, EL
 * DB액션 처리: JDBC
 * 개발 Tool : Eclipse, SVN, Apache Tomcat v8.0, VisualSVN Server Manager
+
+ ![gradeprocess demo gif](https://cloud.githubusercontent.com/assets/25098075/23863511/5de67246-0853-11e7-89e9-85e63a53bcc1.gif)
+ 
