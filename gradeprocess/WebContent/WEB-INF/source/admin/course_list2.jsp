@@ -2,13 +2,12 @@
 	pageEncoding="UTF-8" trimDirectiveWhitespaces="true"%>
 <%@ taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <!DOCTYPE html>
-<html>
+<html lang="ko">
   <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
 
     <title>SIST | 성적관리시스템</title>
 
@@ -16,17 +15,17 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <!-- Font Awesome -->
     <link rel="stylesheet" href="http://fonts.googleapis.com/earlyaccess/nanumgothic.css">
-        <link href="${pageContext.request.contextPath}/bootstrap/vendors/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/vendors/font-awesome/css/font-awesome.css">
     <!-- NProgress -->
-    <link href="${pageContext.request.contextPath}/bootstrap/vendors/nprogress/nprogress.css" rel="stylesheet">
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/vendors/nprogress/nprogress.css">
     <!-- Custom Theme Style -->
-    <link href="${pageContext.request.contextPath}/bootstrap/build/css/custom.css" rel="stylesheet">
-    <script	src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <script src="${pageContext.request.contextPath}/jquery${pageContext.request.contextPath}.js"></script>
+    <link rel="stylesheet" href="${pageContext.request.contextPath}/bootstrap/build/css/custom.css">
     <!-- 달력을 위한 소스 -->
 	<link rel="stylesheet" href="http://code.jquery.com/ui/1.11.4/themes/smoothness/jquery-ui.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="${pageContext.request.contextPath}/jquery${pageContext.request.contextPath}.js"></script>
 
-<style type="text/css">
+<style>
 .top_search_select {
   border-radius: 25px;
   border: 1px solid rgba(221, 226, 232, 0.49);
@@ -617,8 +616,7 @@ $(document).ready(function(){
 			</div>
 		</div>
 	</div>
-	<!-- +++++++++++++++++++ script part +++++++++++++++++++ -->
-
+<!-- +++++++++++++++++++ script part +++++++++++++++++++ -->
     <!-- jQuery -->
     <script src="${pageContext.request.contextPath}/bootstrap/vendors/jquery/dist/jquery.min.js"></script>
     <!-- Bootstrap -->
@@ -627,12 +625,11 @@ $(document).ready(function(){
     <script src="${pageContext.request.contextPath}/bootstrap/vendors/fastclick/lib/fastclick.js"></script>
     <!-- NProgress -->
     <script src="${pageContext.request.contextPath}/bootstrap/vendors/nprogress/nprogress.js"></script>
-    <!-- iCheck -->
-    <!--<script src="${pageContext.request.contextPath}/bootstrap/vendors/iCheck/icheck.min.js"></script>-->
-    <!-- Custom Theme Scripts -->
+	<!-- Custom Theme Scripts -->
     <script src="${pageContext.request.contextPath}/bootstrap/build/js/custom.js"></script>
     <!-- 달력을 위한 소스 -->
 	<script src="http://code.jquery.com/ui/1.11.4/jquery-ui.js"></script>
 </body>
 </html>
+
 
