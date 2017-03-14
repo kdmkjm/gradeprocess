@@ -1,7 +1,7 @@
 ## 쌍용교육센터 성적관리 시스템
 
 ### 개요
-* 교육기관의 인적 관리와 수강생에 대한 교육 과정을 등록 할 수 있으며 교육 과정의 기본 정보를 관리하고<br>
+* 교육기관의 인적 관리와 수강생에 대한 교육 과정을 등록 할 수 있으며 교육 과정의 기본 정보를 관리하고
   강사는 수강생의 성적을 부여하여 관리 할 수 있습니다.
   
 ### 주요 기술
@@ -12,7 +12,8 @@
 * 개발 Tool : Eclipse, SVN, Apache Tomcat v8.0, VisualSVN Server Manager
 
 ### Ajax, JSON 코드분석 영역 데모 시연 영상
-* [YouTube 보기](https://youtu.be/2gtT-Kq7P9g)
+[YouTube 보기](https://youtu.be/2gtT-Kq7P9g)
+
 ![gradeprocess demo gif](https://cloud.githubusercontent.com/assets/25098075/23864998/8f3e5dd2-0857-11e7-8daa-abb78a105a2d.gif)
  
 ### 성적관리 시스템 DB 구조 (ERD)
