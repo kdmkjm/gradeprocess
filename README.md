@@ -30,6 +30,19 @@
   Spring3.0의 특징 및 모듈 설정, Spring DI 객체간의 의존성 주입에 대한 이해와 실습,<br>
   Spring MVC처리, Spring Security, Spring ORM의 사용, MyBATIS 연동
 
+### 프로젝트
+[Spring 게시판](https://github.com/nikerun23/guestbook)
+* JAVA, **Spring, MyBatis, SpringSecurity**, JSP, EL
+* HTML, CSS, BootStrap, JavaScript, jQuery
+* Oracle, Apache Tomcat v8.0, Eclipse, Atom
+
+[성적관리시스템](https://github.com/nikerun23/guestbook/tree/master/guestbook)
+* 검색 결과 데이터 요청 및 출력: jQuery, Ajax, JSON
+* 웹 화면 구성: HTML, CSS, BootStrap, JavaScript
+* 결과를 얻어오기 위한 서버 액션: JAVA, Servlet, JSP, EL
+* DB액션 처리: JDBC
+* 개발 Tool : Eclipse, SVN, Apache Tomcat v8.0, VisualSVN Server Manager
+
 ### Ajax, JSON 코드분석 시연 영상
 [YouTube 보기](https://youtu.be/2gtT-Kq7P9g)
 
