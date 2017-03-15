@@ -19,10 +19,10 @@
 - **JavaScript / HTML 5 / CSS3 / AngularJS (120시간)**<br>
   JavaScript 기본 문법, function, Prototype 및 웹표준 기반의 HTML5 마크업, CSS3스탕일링, AngularJS 기본 문법 학습<br>
   
-- **jQuery / Bootstrap /GoogleMap Ajax / JSON / XML (80시간)**<br>
+- **jQuery / jQueryUI / Bootstrap / Ajax / JSON / XML /GoogleMap (80시간)**<br>
   jQuery웹서비스 활용, Ajax XMLHttpRequest서버와의 통신 이해, GoogleMap등 오픈API활용, JSON 파싱 학습<br>
   
-- **Servlet / JSP / JSTL / EL / jQueryUI (106시간)**<br>
+- **Servlet / JSP / JSTL / EL (106시간)**<br>
   MVC기반 Web serivce구현, Container의 사용법, Java Web Service시 폴더구성,<br>
   Servlet 작성법 및 요청과 응답의 사용(HttpServletRequest, HttpServletResponse), EL, JSTL 학습<br>
   
