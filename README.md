@@ -50,3 +50,6 @@
  
 ### 성적관리 시스템 DB 구조 (ERD)
 ![성적관리시스템 DB 구조 (ERD)](https://cloud.githubusercontent.com/assets/25098075/23881907/c84d7164-08a0-11e7-825a-7740d0e3f305.png)
+
+### 페이지 구조, 명칭 및 기능 구현 문서화
+![jap(https://cloud.githubusercontent.com/assets/25098075/23934899/bbd5aa64-098b-11e7-867f-f5ae5ab91fcb.jpg)
